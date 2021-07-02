@@ -1,0 +1,27 @@
+.Header__Component {
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+  margin: 0 auto;
+  @media (min-width: 767px) {
+    padding: 0 160px !important;
+  }
+}
+
+  @media (max-wdth: 992px) {
+    .collapse {
+      min-height: 100px !important;
+      position: relative;
+      top: 30px;
+
+  }
+  }
+.navbar-light .navbar-toggler-icon {
+  background-image: url('./../../img/menu.svg') !important;
+}
+.collapse .show {
+  background: red !important;
+}

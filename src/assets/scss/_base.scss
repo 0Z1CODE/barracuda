@@ -1,0 +1,91 @@
+body {
+  background: #000;
+  overflow-x: hidden;
+}
+.Custom__Container {
+  max-width: 1600px;
+}
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #376fff;
+  outline: 1px solid rgb(27, 112, 197);
+}
+.h2 {
+  font-family: $Alegreya;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 83.5%;
+  text-align: center;
+  color: #1e1e1e;
+}
+
+.h3 {
+  font-family: $OpenSans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 33px;
+  line-height: 125%;
+  text-align: center;
+  color: #0f0f0f;
+  margin-top: 20px;
+}
+
+.italick-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  color: #306aff;
+  line-height: 34px;
+  font-family: $Caveat;
+}
+.cursive-title {
+  font-family: $Caveat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 27px;
+  line-height: 34px;
+  color: #fff;
+}
+.big-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 83.5%;
+  color: #fff;
+  font-family: $Alegreya;
+
+}
+.link {
+  font-family: $Alegreya;
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 83.5%;
+text-transform: uppercase;
+ &:--blue {
+  color:rgb(27, 112, 197)
+ }
+}
+.tb-white {
+  font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 83.5%;
+font-family: $Alegreya;
+color:#fff;
+
+}
+.tb-dur {
+  font-family: $Caveat;
+
+font-style: normal;
+font-weight: bold;
+font-size: 27px;
+line-height: 34px;
+color: #306AFF
+
+}

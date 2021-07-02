@@ -1,0 +1,102 @@
+.OurTeam {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  padding: $space80 0;
+}
+
+.TeamCard {
+  display: block;
+  width: 320px;
+}
+.image-holder {
+  width: 320px;
+  height: 420px;
+  display: block;
+}
+.im-mishel {
+  position: relative;
+  &:after {
+    content: "";
+    width: 320px;
+    height: 420px;
+    position: absolute;
+    background: url("../../img/team/mishel2.jpg");
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+  }
+  &:hover {
+    &:after {
+      content: "";
+      opacity: 1;
+    }
+  }
+}
+
+.im-alex {
+  position: relative;
+  &:after {
+    content: "";
+    width: 320px;
+    height: 420px;
+    position: absolute;
+    background: url("../../img/team/Alex2.jpg");
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+  }
+  &:hover {
+    &:after {
+      content: "";
+      opacity: 1;
+    }
+  }
+}
+
+.im-stas {
+  position: relative;
+  &:after {
+    content: "";
+    width: 320px;
+    height: 420px;
+    position: absolute;
+    background: url("../../img/team/Stas2.jpg");
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+  }
+  &:hover {
+    &:after {
+      content: "";
+      opacity: 1;
+    }
+  }
+}
+.teammember-name {
+  color: #306aff;
+  font-style: normal;
+  font-family: $Alegreya;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 83.5%;
+  text-align: center;
+}
+.teammember-desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 140%;
+  font-family: $Montserrat;
+  text-align: center;
+  color: #363636;
+}
+.OurTeam_footer {
+  margin-top: 140px;
+}

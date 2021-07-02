@@ -1,0 +1,41 @@
+.twoChewrone {
+  background: #376fff;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  min-width: 230px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 83.5%;
+  font-family: $Alegreya;
+  padding: 12px 0;
+  position: relative;
+  margin-left: 14px;
+  &:focus {
+    outline: none;
+  }
+  &:after {
+    content: "";
+    width: 27px;
+    height: 27px;
+    left: -14px;
+    transform: rotate(45deg);
+    top: 5px;
+    display: block;
+    position: absolute;
+    background: #376fff;
+  }
+  &:before {
+    content: "";
+    width: 27px;
+    height: 27px;
+    left: 94%;
+    transform: rotate(45deg);
+    top: 5px;
+    display: block;
+    position: absolute;
+    background: #376fff;
+  }
+}

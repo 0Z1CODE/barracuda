@@ -1,0 +1,38 @@
+
+  .custom__link {
+    min-width: 122px;
+    padding: 10px 15px;
+    background: #376FFF;
+    font-family: $Alegreya;
+    font-style: normal;
+    color: #fff;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 83.5%;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all .3s linear;
+    text-decoration: none;
+    position: relative;
+    margin-right: 30px;
+    &:hover {
+      color: #fff;
+      background: #0740D2;
+      text-decoration: none;
+      &:after {
+        background: #0740D2;
+      }
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 90%;
+      transform: rotate(45deg);
+      width: 26px;
+      height: 25px;
+      background: #376FFF;z-index: -1;
+
+    }
+    
+  }

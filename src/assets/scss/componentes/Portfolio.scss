@@ -1,0 +1,22 @@
+.Portfolio {
+  padding: $space80 0;
+}
+.portfolioHeaderLeft {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    left: -18%;
+    top: -60%;
+    background: url("../../img/portfolio_smoke.png") no-repeat;
+    width: 430px;
+    height: 217px;
+    display: block;
+    z-index: -1;
+  }
+}
+.portfolioHeaderRight {
+  .cursive-title {
+    width: 245px;
+  }
+}
